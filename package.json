@@ -1,0 +1,25 @@
+{
+  "name": "prismagraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "apollo": "^2.34.0",
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1",
+    "lodash": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "prisma": "^5.13.0"
+  }
+}
